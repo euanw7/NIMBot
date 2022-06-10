@@ -45,7 +45,6 @@ public class TwoPileGame {
      * which pile to take from and how many cons to take.
      */
     private void userTurn() {
-
         System.out.println("\nPile 1: " + p1.getCoins() +
                 "\nPile 2: " + p2.getCoins() +
                 "\n\nWhich pile will you take from? (1/2)");
@@ -109,7 +108,6 @@ public class TwoPileGame {
      * so that the user ends up in a losing position.
      */
     private void botTurn() {
-
         // Integers representing which pile and how many coins the bot chooses.
         int botPile = 0;
         int botCoin = 0;
