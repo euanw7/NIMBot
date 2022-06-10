@@ -1,9 +1,9 @@
 # NIM-Bot
-This code is a two pile game of NIM that can be played by the user against the computer. 
+This code is a two pile game of NIM that can be played by the user against the computer.
+
+The main three .java files containing the code are located in the src folder.
 
 The number of coins in each pile can be specified using the main method in the "Test.java" file. These are inputted as two integers (n1 and n2) as parameters when creating the new TwoPileGame object 'g'. These can be any natural numbers.
-
-The user cannot win.
 
 ## How To Play
 There are two players, the user and the computer. 
